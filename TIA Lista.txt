@@ -1,0 +1,107 @@
+PARTE 1 - QUESTÕES DE REVISÃO
+-----------------------------
+
+1. FUNDAMENTOS DE INTELIGÊNCIA ARTIFICIAL
+
+1.1 Diferencie IA fraca, IA forte (geral) e consciência artificial, com exemplos.
+
+
+1.2 Cite três aplicações de IA do dia a dia (como recomendação em streaming, chatbots, análise de imagens médicas, drones e agricultura) e explique o que a IA faz em cada uma.
+
+
+1.3 Qual a diferença entre um sistema que aprende com dados e um que apenas segue regras fixas?
+
+
+2. TIPOS DE APRENDIZADO DE MÁQUINA
+
+2.1 Explique o aprendizado supervisionado (classificação e regressão), o não supervisionado (agrupamento, associação e anomalias) e o por reforço.
+
+
+2.2 Como escolher a abordagem adequada para um problema? Dê um exemplo de problema para cada tipo de aprendizado.
+
+
+2.3 O que são séries temporais e como elas ajudam a projetar valores futuros?
+
+
+3. AVALIAÇÃO DE MODELOS
+
+3.1 Por que é necessário dividir os dados em treino e teste?
+
+
+3.2 O que é acurácia? Por que ela pode enganar quando as classes são muito desbalanceadas?
+
+
+3.3 O que são matriz de confusão, precisão e recall?
+
+
+3.4 O que é overfitting e como reduzi-lo?
+
+
+4. MINERAÇÃO DE DADOS: DESAFIOS E LIMITAÇÕES
+
+4.1 Explique os desafios da mineração de dados: qualidade dos dados, overfitting, interpretabilidade ("caixa preta") e privacidade (LGPD e GDPR).
+
+
+4.2 O que são sistemas especialistas e qual o problema da aquisição de conhecimento?
+
+
+5. ÉTICA EM SISTEMAS AUTÔNOMOS
+
+5.1 Por que decisões críticas de sistemas autônomos (como carros inteligentes) exigem regras éticas?
+
+
+5.2 Explique o que são responsabilidade, transparência e viés em sistemas de IA.
+
+
+6. DASHBOARDS E FERRAMENTAS
+
+6.1 Quais são as categorias de ferramentas para criar dashboards? Dê exemplos de ferramentas com código (como Streamlit) e no-code/low-code (como Tableau).
+
+
+6.2 Para que público e em que contexto cada tipo de ferramenta é indicado?
+
+
+7. DO MODELO À PRODUÇÃO (DEPLOY)
+
+7.1 Como salvar e carregar um modelo treinado (por exemplo, com Joblib)?
+
+
+7.2 Por que um modelo com boa acurácia no teste ainda exige interface e acompanhamento depois do deploy?
+
+
+7.3 O que é data drift e por que o desempenho do modelo pode cair com o tempo?
+
+
+PARTE 2 - EXERCÍCIOS PRÁTICOS
+-----------------------------
+
+8. Liste dez aplicações de IA que você usa no dia a dia e classifique cada uma como IA fraca ou forte, justificando.
+
+
+9. Para cada situação, indique o tipo de aprendizado mais adequado e justifique.
+
+a) Prever as vendas do próximo mês.
+b) Separar e-mails em spam ou não.
+c) Agrupar clientes por perfil de compra.
+d) Ensinar um robô a jogar.
+
+
+10. Calcule a acurácia, a precisão e o recall a partir de uma matriz de confusão que você inventar e comente o resultado.
+
+
+11. Explique por que um modelo que "prevê que ninguém cancela" pode ter 95% de acurácia e ainda assim ser inútil.
+
+
+12. Treine um modelo simples em Python com scikit-learn, separando dados de treino e de teste, e meça a acurácia.
+
+
+13. Salve o modelo com joblib, carregue-o em outro arquivo e faça uma previsão.
+
+
+14. Crie um dashboard simples com Streamlit (ou outra ferramenta) mostrando ao menos dois gráficos.
+
+
+15. Escreva um parágrafo sobre um dilema ético de um carro autônomo e quais regras deveriam orientar a decisão.
+
+
+16. Escolha dois desafios da mineração de dados (por exemplo, qualidade dos dados e privacidade) e proponha uma forma de reduzir cada um.

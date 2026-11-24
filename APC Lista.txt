@@ -1,0 +1,124 @@
+PARTE 1 - QUESTÕES DE REVISÃO
+-----------------------------
+
+1. FUNDAMENTOS DE PYTHON
+
+1.1 O que são variáveis e tipos de dados em Python? Dê um exemplo de cada tipo que você conhece e explique para que serve a função print.
+
+
+1.2 Para que serve cada operador aritmético: +, -, *, /, // e %? Em que ordem os operadores aritméticos e de comparação são avaliados?
+
+
+1.3 Calcule e mostre como chegou ao resultado: 17 // 5, 17 % 5 e 17 / 5.
+
+
+2. LISTAS
+
+2.1 Como acessar elementos de uma lista por índice? O que significa um índice negativo, como em lista[-1]?
+
+
+2.2 Para que serve a função len()? Como percorrer uma lista com for?
+
+
+2.3 Dada letras = ['p', 'y', 't', 'h', 'o', 'n'], quanto valem letras[0], letras[-1] e letras[-4]?
+
+
+3. ESTRUTURAS CONDICIONAIS
+
+3.1 Explique para que servem if, elif e else. Qual o papel da indentação?
+
+
+3.2 Como usar o operador % para testar se um número é par ou ímpar? Escreva o trecho de código.
+
+
+4. ESTRUTURAS DE REPETIÇÃO
+
+4.1 O que gera range(0, 10, 2)? E range(1, 10, 3)? O valor final é incluído?
+
+
+4.2 Explique o que são while, condição de parada e break. Como reconhecer um laço infinito?
+
+
+4.3 O que são acumuladores e contadores? Dê um exemplo com total += n e c += 1.
+
+
+5. FUNÇÕES
+
+5.1 Como definir uma função com def, parâmetros e return? Qual a diferença entre return e print?
+
+
+5.2 O que uma função sem return devolve, mesmo que tenha print?
+
+
+5.3 O que é um parâmetro com valor padrão? Em que ordem ele deve aparecer e o que acontece quando o argumento é omitido?
+
+
+5.4 Qual o efeito de um return dentro de um laço?
+
+
+5.5 Se aumentar(x) devolve x + 1 e dobrar(x) devolve x * 2, quanto vale dobrar(aumentar(3))? Explique como a chamada é resolvida.
+
+
+6. ESCOPO DE VARIÁVEIS
+
+6.1 Qual a diferença entre variável local e variável global? Quando é necessário declarar global?
+
+
+6.2 Uma função pode ler uma variável global sem declarar global? E modificá-la? Explique.
+
+
+6.3 Preveja a saída do código abaixo e justifique:
+
+contador = 0
+
+def incrementa():
+    global contador
+    contador += 1
+
+incrementa()
+incrementa()
+incrementa()
+print(contador)
+
+
+7. TESTE DE MESA
+
+7.1 O que é teste de mesa e para que serve?
+
+
+7.2 Faça o teste de mesa do código abaixo (uma tabela com o valor de cada variável a cada passo) e diga o que ele mostra:
+
+total = 0
+for n in range(1, 6, 2):
+    total += n
+print(total)
+
+
+PARTE 2 - EXERCÍCIOS PRÁTICOS
+-----------------------------
+
+8. Escolha três códigos com for ou while, faça o teste de mesa no papel e depois confira executando no Python.
+
+
+9. Escreva soma_pares(lista), que devolve a soma dos números pares. Depois, mova o return para dentro do for, rode e explique por que o resultado muda.
+
+
+10. Escreva conta(lista, alvo), que devolve quantas vezes o alvo aparece na lista, sem usar o método count().
+
+
+11. Escreva maior(lista) e menor(lista) sem usar max() e min().
+
+
+12. Escreva media(lista) e, depois, uma versão com parâmetro de valor padrão, por exemplo casas=2, para arredondar o resultado.
+
+
+13. Crie preco_final(valor, desconto=10) e chame a função com e sem o segundo argumento, prevendo o resultado antes de executar.
+
+
+14. Crie um contador global incrementado por uma função com global. Chame a função várias vezes e preveja o que o print mostrará antes de executar.
+
+
+15. Reescreva um for como while e um while como for, mantendo o mesmo resultado.
+
+
+16. Escreva um programa que percorra uma lista e mostre a soma dos pares e a quantidade de ímpares.

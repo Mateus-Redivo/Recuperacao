@@ -1,0 +1,95 @@
+PARTE 1 - QUESTÕES DE REVISÃO
+-----------------------------
+
+1. ARQUITETURA ORIENTADA A SERVIÇOS (SOA)
+
+1.1 Explique o que é SOA e como ela difere de um sistema monolítico. Cite uma vantagem e um custo de cada abordagem.
+
+
+1.2 O que é um serviço? Qual o papel do contrato do serviço na comunicação entre sistemas?
+
+
+1.3 Compare a integração por serviços com outras três formas de integrar sistemas (arquivos, banco de dados compartilhado e biblioteca comum). Qual o principal problema de cada uma?
+
+
+1.4 Uma mesma regra de negócio (ex.: cálculo de frete) está repetida em três sistemas diferentes.
+a) Que problema isso causa quando a regra muda?
+
+
+b) Por que transformá-la em um serviço reutilizável ajuda?
+
+
+1.5 Cite e explique os quatro desafios da SOA: latência de rede, monitoramento, testes de integração e consistência dos dados.
+
+
+2. COMPUTAÇÃO EM NUVEM E INFRAESTRUTURA
+
+2.1 Compare nuvem pública e infraestrutura própria (on-premises) quanto a custo, controle, escalabilidade e latência.
+
+
+2.2 Um banco precisa guardar dados sensíveis de clientes e seguir regulações do setor e a LGPD. Que tipo de infraestrutura você recomendaria? Justifique.
+
+
+3. REST E APIs HTTP
+
+3.1 O que são recursos e URLs em uma API REST? Para que servem os métodos GET, POST, PUT e DELETE?
+
+
+3.2 O que significa uma API ser stateless? Qual o papel do token em cada requisição?
+
+
+3.3 Explique quando cada código de status é usado: 200, 201, 204, 400, 404 e 500.
+
+
+3.4 Diferencie REST de SOAP/WSDL e da comunicação assíncrona por filas de mensagens.
+
+
+4. PADRÃO MVC
+
+4.1 Descreva a responsabilidade de Model, View e Controller.
+
+
+4.2 Descreva o caminho de uma ação do usuário (ex.: clicar em "Salvar") pelas três camadas.
+
+
+5. SPRING BOOT
+
+5.1 Explique para que servem @RestController, @GetMapping, @PostMapping, @PathVariable e @RequestBody.
+
+
+5.2 O que a API responde quando o método do Controller devolve um objeto? E quando devolve null?
+
+
+5.3 Como declarar validações em um DTO (Bean Validation) e como ativá-las no Controller? O que acontece se faltar o @Valid?
+
+
+5.4 Como tratar exceções de forma centralizada com @RestControllerAdvice e @ExceptionHandler? Qual a vantagem em relação ao try/catch no Controller?
+
+
+6. ARQUITETURA EM CAMADAS
+
+6.1 Explique a responsabilidade de Controller, Service e Repository e diga quem pode conhecer quem.
+
+
+6.2 O que o JpaRepository oferece? O que são consultas derivadas do nome do método? Dê um exemplo.
+
+
+6.3 Qual a diferença entre Entidade e DTO? Quando usar cada um?
+
+
+PARTE 2 - EXERCÍCIOS PRÁTICOS
+-----------------------------
+
+7. Monte uma tabela comparando sistema monolítico e SOA.
+
+
+8. Liste cinco endpoints REST para o recurso /clientes.
+
+
+9. Crie em Spring Boot uma API de clientes em camadas (Controller, Service e Repository) com um DTO validado por @Valid.
+
+
+10. Faça a API do exercício anterior devolver 404 quando o cliente não existe, usando uma exceção tratada em um @RestControllerAdvice.
+
+
+11. Explique com suas palavras, em até cinco linhas, o caminho de um POST /clientes desde a requisição até a resposta.

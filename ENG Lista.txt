@@ -1,0 +1,96 @@
+PARTE 1 - QUESTÕES DE REVISÃO
+-----------------------------
+
+1. ANÁLISE DE SISTEMAS
+
+1.1 Explique o papel da Análise de Sistemas no ciclo de vida do software.
+
+
+1.2 Relacione requisitos de negócio (o que fazer) com a solução técnica (como construir). Dê um exemplo.
+
+
+2. MODELOS ÁGEIS
+
+2.1 Descreva os princípios dos métodos ágeis: ciclos curtos, entregas frequentes, feedback contínuo do cliente, equipes multifuncionais e aceitação de mudanças.
+
+
+2.2 Compare o desenvolvimento ágil com o modelo tradicional (em cascata).
+
+
+2.3 Como entregar incrementos para usuários reais reduz o risco de um projeto incerto?
+
+
+3. SCRUM
+
+3.1 Quais são os papéis do Scrum (Product Owner, Scrum Master e Time de Desenvolvimento)? Qual a responsabilidade de cada um, incluindo a remoção de impedimentos?
+
+
+3.2 Quais são os eventos do Scrum (Sprint Planning, Daily Scrum, Sprint Review e Sprint Retrospective)? Qual o objetivo de cada um?
+
+
+3.3 Explique os artefatos do Scrum: Product Backlog, Sprint Backlog e Incremento.
+
+
+3.4 O que é o Kanban? Explique a ideia de limitar o trabalho em andamento.
+
+
+4. GESTÃO DE MUDANÇAS
+
+4.1 Por que toda mudança afeta escopo, cronograma e custo? Por que ela exige análise de impacto antes de ser implementada?
+
+
+4.2 Descreva o fluxo de uma mudança: registro formal com identificador único, análise, decisão do Comitê de Controle de Mudanças (CCB) e atualização da documentação.
+
+
+4.3 O que é scope creep e por que ele é um risco para o projeto?
+
+
+5. UML: DIAGRAMA DE CASO DE USO
+
+5.1 Identifique os elementos de um diagrama de caso de uso (atores, casos de uso, limite do sistema e associações) e explique como cada um é representado graficamente.
+
+
+6. UML: DIAGRAMA DE CLASSES
+
+6.1 Como representar uma classe com atributos e métodos?
+
+
+6.2 O que é herança? Explique as multiplicidades: um, zero ou um, zero ou muitos, um ou muitos.
+
+
+6.3 Diferencie associação, agregação e composição e dê um exemplo de cada uma.
+
+
+7. UML: DIAGRAMA DE ESTADOS
+
+7.1 Identifique os elementos de um diagrama de estados: estado, estado inicial, estado final, evento e transição.
+
+
+7.2 Qual a diferença entre evento, ação e estado?
+
+
+PARTE 2 - EXERCÍCIOS PRÁTICOS
+-----------------------------
+
+8. Para um sistema de biblioteca online, desenhe o diagrama de caso de uso com pelo menos dois atores, quatro casos de uso e o limite do sistema.
+
+
+9. Desenhe o diagrama de classes do mesmo sistema (Livro, Usuário, Empréstimo etc.), com atributos, métodos, multiplicidades e pelo menos uma agregação ou composição.
+
+
+10. Desenhe o diagrama de estados de um pedido de e-commerce (aguardando pagamento, pago, enviado, entregue, cancelado), indicando os eventos de cada transição.
+
+
+11. Escreva cinco histórias de usuário para um aplicativo à sua escolha e ordene-as em um Product Backlog.
+
+
+12. Simule uma Sprint de uma semana: descreva o que acontece na Planning, nas Dailies, na Review e na Retrospective.
+
+
+13. Monte uma tabela com os papéis do Scrum e a responsabilidade de cada um e, ao lado, três exemplos de situações em que cada papel deve agir.
+
+
+14. Escreva uma solicitação de mudança fictícia e descreva os passos até a aprovação pelo CCB, indicando o impacto em escopo, prazo e custo.
+
+
+15. Escreva um parágrafo comparando o desenvolvimento ágil com o modelo em cascata.
